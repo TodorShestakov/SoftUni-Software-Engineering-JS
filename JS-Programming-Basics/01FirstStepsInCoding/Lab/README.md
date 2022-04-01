@@ -1,6 +1,6 @@
 # JS Basic Syntax, Conditional Statements, and Loops
 
-## Multiply Number by 2
+## 1. Multiply Number by 2
 
 Write a function that receives a number and **prints** as result that **number**
 **multiplied** by **two**.
@@ -13,7 +13,7 @@ Write a function that receives a number and **prints** as result that **number**
 | 5         | 10         |
 | 20        | 40         |
 
-## Student Information
+## 2. Student Information
 
 You will be given **3 parameters** – student name (string), age (number), and
 average grade (number). Your task is to print all the info about the student in
@@ -31,7 +31,7 @@ the following format:
 | 'Steve', 16, 2.1426 | Name: Steve, Age: 16, Grade: 2.14 |
 | 'Marry', 12, 6.00   | Name: Marry, Age: 12, Grade: 6.00 |
 
-## Excellent Grade
+## 3. Excellent Grade
 
 Write a function that receives a single number and checks if the grade is
 **excellent** or **not**.   
@@ -44,7 +44,7 @@ If it is, print "**Excellent**", otherwise print "**Not excellent**".
 | 5.50      | Excellent     |
 | 4.35      | Not excellent |
 
-## Foreign Languages
+## 4. Foreign Languages
 
 Write a program, which prints the language, that a given country speaks. You can
 receive only the following combinations:
