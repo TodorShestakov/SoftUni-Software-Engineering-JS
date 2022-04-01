@@ -127,18 +127,18 @@ is not in the table.
 |----------------|------------|---|----------------|------------|---|---------------|------------|---|
 | 'Weekday',  42 | 18\$       |   | 'Holiday', -12 | Error!     |   | 'Holiday', 15 | 5\$        |   |
 
-## Numbers from 1 to 5
+## 7. Numbers from 1 to 5
 
 Write a function that **prints** all the **numbers** from **1** **to** **5**
 (inclusive) each on a separate line.
 
-## 7. Divisible by 3
+## 8. Divisible by 3
 
 Write a program, which prints all the numbers from **1 to 100**, which are
 **divisible by 3**. You have to use a single **for** loop. The program should
 not receive input.
 
-## 8. Numbers from N to 1
+## 9. Numbers from N to 1
 
 Write a function that receives a number **N** and prints all the numbers from
 **N** **to 1**. Try using the while loop.
@@ -150,7 +150,7 @@ Write a function that receives a number **N** and prints all the numbers from
 | 5         | 5 4 3 2 1  |
 | 3         | 3 2 1      |
 
-## 9. Numbers from M to N
+## 10. Numbers from M to N
 
 Write a function that receives a number **M** and a number **N** (M will always
 be bigger than N). Print all numbers from **M to N**.
@@ -162,7 +162,7 @@ be bigger than N). Print all numbers from **M to N**.
 | 6, 2      | 6 5 4 3 2  |
 | 4, 1      | 4 3 2 1    |
 
-## 10. Sum of Odd Numbers
+## 11. Sum of Odd Numbers
 
 Write a program that prints the next **n** **odd numbers** (starting from 1) and
 on the **last row** prints the **sum of them**.
