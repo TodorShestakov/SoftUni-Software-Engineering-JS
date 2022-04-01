@@ -1,4 +1,4 @@
-# JS Basic Syntax, Conditional Statements, and Loops
+# JS Syntax, Conditional Statements, and Loops
 
 ## 1. Multiply Number by 2
 
