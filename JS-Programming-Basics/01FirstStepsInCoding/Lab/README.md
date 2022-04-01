@@ -53,7 +53,7 @@ receive only the following combinations:
 
 -   Spanish **is spoken** in Spain, Argentina, and Mexico;
 
--   For the others**,** we should print "**unknown**";
+-   For the others, we should print "**unknown**";
 
 ### Input
 
