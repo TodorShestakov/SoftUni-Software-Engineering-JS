@@ -1,14 +1,8 @@
 function godzillaVsKong(input) {
 
-    /* 
-        1.	Бюджет за филма – реално число в интервала [1.00 … 1000000.00]
-        2.	Брой на статистите – цяло число в интервала [1 … 500]
-        3.	Цена за облекло на един статист – реално число в интервала [1.00 … 1000.00] */
-
     let budget = Number(input[0]);
     let employees = Number(input[1]);
     let priceForEmployeeClothes = Number(input[2]);
-
 
     let totalPrice = employees * priceForEmployeeClothes;
     let decorPrice = 0.1 * budget;
@@ -26,8 +20,6 @@ function godzillaVsKong(input) {
         console.log(`Action!`);
         console.log(`Wingard starts filming with ${(Math.abs(left)).toFixed(2)} leva left.`);
     }
-
-
 }
 godzillaVsKong(["20000",
     "120",
