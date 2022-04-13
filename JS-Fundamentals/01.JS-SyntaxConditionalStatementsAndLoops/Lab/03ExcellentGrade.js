@@ -5,6 +5,5 @@ function solve(number) {
     } else {
         console.log('Not excellent');
     }
-
 }
 solve(4.35)

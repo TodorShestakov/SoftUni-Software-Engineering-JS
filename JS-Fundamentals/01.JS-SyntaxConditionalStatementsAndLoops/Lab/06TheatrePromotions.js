@@ -28,6 +28,5 @@ function solve(day, age) {
     } else {
         console.log('Error!');
     }
-
 }
 solve('Weekday', 42)
