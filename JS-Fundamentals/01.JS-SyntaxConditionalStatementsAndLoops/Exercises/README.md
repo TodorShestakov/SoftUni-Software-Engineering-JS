@@ -1,6 +1,6 @@
 # Exercise: JS Basic Syntax, Conditional Statements, and Loops
 
-## Ages
+## 1. Ages
 
 Write a function that determines whether based on the given **age** a person is:
 **baby**, **child**, **teenager**, **adult**, **elder**.
@@ -30,7 +30,7 @@ The **output** should be printed to the console.
 | 100       | elder         |
 | -1        | out of bounds |
 
-1.  **Rounding**
+## 2. Rounding
 
 Write a JS function that rounds numbers to a specific precision.
 
@@ -50,7 +50,7 @@ decimals.
 |-------------------------------------|------------|---|-----------|------------|
 | 3.1415926535897932384626433832795,2 | 3.14       |   | 10.5,3    | 10.5       |
 
-## Division
+## 3. Division
 
 You will be given a number and you have to check whether that number is
 divisible by any of the following numbers\*\*: 2, 3, 6, 7\*\*, and **10.** You
@@ -73,7 +73,7 @@ divisible".** Otherwise, print: "**The number is divisible by {number}"**.
 | 12        | The number is divisible by 6  |
 | 1643      | Not divisible                 |
 
-## Vacation
+## 4. Vacation
 
 You are given a **group of people**, the **type of the group**, and the **day of
 the week** they are going to stay. Based on that information calculate how much
@@ -109,7 +109,7 @@ There are also discounts based on some conditions:
 | 30, "Students", "Sunday"  | Total price: 266.73 |
 | 40, "Regular", "Saturday" | Total price: 800.00 |
 
-## Leap Year
+## 5. Leap Year
 
 Write a JS function to check whether a year is a leap. Leap years are either
 divisible by 4 but not by 100 or are divisible by 400. The **output** should be
@@ -127,7 +127,7 @@ following:
 | 2003      | no         |
 | 4         | yes        |
 
-## Print and Sum
+## 6. Print and Sum
 
 Write a function that displays numbers from **given start** to given **end** and
 their **sum**. The input comes as **two number parameters**. Print the result
@@ -141,7 +141,7 @@ like the examples below:
 | 0, 26     | 0 1 2 … 26 Sum: 351                       |
 | 50, 60    | 50 51 52 53 54 55 56 57 58 59 60 Sum: 605 |
 
-## Triangle of Numbers
+## 7. Triangle of Numbers
 
 Write a function, which receives a **single number** – **n**, and prints a
 triangle from **1 to n** as in the examples.
@@ -156,7 +156,7 @@ triangle from **1 to n** as in the examples.
 |-----------|-------------|---|-----------|-------------------------------|---|-----------|-------------------------------------------|
 | 3         | 1 2 2 3 3 3 |   | 5         | 1 2 2 3 3 3 4 4 4 4 5 5 5 5 5 |   | 6         | 1 2 2 3 3 3 4 4 4 4 5 5 5 5 5 6 6 6 6 6 6 |
 
-## Multiplication Table
+## 8. Multiplication Table
 
 You will receive a **number** as a **parameter**. Print the **10 times table**
 for this **number**. See the examples below for more information.
@@ -177,7 +177,7 @@ The number will be an **integer** will be in the interval **[1…100]**
 |-----------|---------------------------------------------------------------------------------------------------------------|---|-----------|------------------------------------------------------------------------------------------------------------|
 | 5         | 5 X 1 = 5 5 X 2 = 10 5 X 3 = 15 5 X 4 = 20 5 X 5 = 25 5 X 6 = 30 5 X 7 = 35 5 X 8 = 40 5 X 9 = 45 5 X 10 = 50 |   | 2         | 2 X 1 = 2 2 X 2 = 4 2 X 3 = 6 2 X 4 = 8 2 X 5 = 10 2 X 6 = 12 2 X 7 = 14 2 X 8 = 16 2 X 9 = 18 2 X 10 = 20 |
 
-## \* Login
+## 9. \* Login
 
 You will be given a string representing a username. The correct **password**
 will be that username **reversed**. Until you receive the correct password print
@@ -198,7 +198,7 @@ username and **each** subsequent string is a password.
 | ['momo','omom']                                | User momo logged in.                                                                                              |
 | ['sunny','rainy','cloudy','sunny','not sunny'] | Incorrect password. Try again. Incorrect password. Try again. Incorrect password. Try again. User sunny blocked!  |
 
-1.  **\* The Pyramid of King Djoser**
+## 10. \* The Pyramid of King Djoser
 
 Write a JS program that calculates how much resources will be required for the
 construction of a pyramid. It is made out of **stone**, **marble**, **lapis
@@ -273,67 +273,3 @@ calculations
 | **Input** | **Output**                                                                                                  |   | **Input** | **Output**                                                                                                  |
 |-----------|-------------------------------------------------------------------------------------------------------------|---|-----------|-------------------------------------------------------------------------------------------------------------|
 | 12, 1     | Stone required: 220 Marble required: 128 Lapis Lazuli required: 12 Gold required: 4 Final pyramid height: 6 |   | 23, 0.5   | Stone required: 886 Marble required: 228 Lapis Lazuli required: 36 Gold required: 1 Final pyramid height: 6 |
-
-## \* Bitcoin "Mining"
-
-Write a JavaScript program that calculates the **total amount** of **bitcoins**
-you purchased with the gold you mined during your **shift** at the mine. Your
-shift consists of a certain number of days where you mine an amount of **gold**
-in **grams**. Your program will receive an **array with the amount of gold** you
-mined **each day**, where the **first day** of your **shift** is the **first
-index of the array**. Also, someone was stealing **every third day** from the
-start of your shift **30%** from the mined **gold** for **this day**. You need
-to check, which day you have enough money to buy your **first** **bitcoin.** For
-the different exchanges use these **prices**:
-
-| **1 Bitcoin**   | 11949.16 lv. |
-|-----------------|--------------|
-| **1 g of gold** | 67.51 lv.    |
-
-### Input
-
-You will receive an array of **numbers**, representing your **shift** at the
-mine.
-
-### Output
-
-Print on the **console these lines in the following formats**:
-
-**First-line** prints the **total** **amount** of bought **bitcoins**:
-
-**\`Bought bitcoins: {count}\`**
-
-**Second-line** prints **which day** you **bought** your **first bitcoin**:
-
-**\`Day of the first purchased bitcoin: {day}\`**
-
-In case you **did not** **purchase any bitcoins,** do not print the second line.
-
-**Third-line** prints the **amount** of **money** that’s left after the bitcoin
-purchases **rounded by the second digit** after the decimal point:
-
-**\`Left money: {money} lv.\`**
-
-### Constraints
-
-The **input** array may contain up to **1,000** elements
-
-The numbers in the array are in the range **[0.01..5,000.00] inclusive**
-
-Allowed time/memory: 100ms/16MB
-
-### Examples
-
-| **Input**       | **Output**                                                                        |
-|-----------------|-----------------------------------------------------------------------------------|
-| [100, 200, 300] | Bought bitcoins: 2 Day of the first purchased bitcoin: 2 Left money: 10531.78 lv. |
-
-Scroll down to see the explanation for the first example and more examples.
-
-| **Explanation**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Day 1** – you dig up **100 g** of gold then exchange it for **6751.00 lv.** **Day 2** – you dig up **200 g** of gold then exchange it for **13,502.00 lv.** and the total amount of money is **20,253.00 lv.** Then you buy **1 Bitcoin** which leaves you with **8,303.84 lv.** Also, this purchase is the **first day you bought bitcoin**. **Day 3** – you dig up **300 g** of gold but then **30%** of it is stolen and your gold drops to **210 g** which you exchange for **14,177.10 lv.** making your total amount of money **22,480.94 lv.** Then you buy **1 Bitcoin** making the final amount of money that you have **left with** **10,531.78 lv.** with **2 bought Bitcoins.** |
-
-| **Input** | **Output**                                  |   | **Input**                    | **Output**                                                                        |
-|-----------|---------------------------------------------|---|------------------------------|-----------------------------------------------------------------------------------|
-| [50, 100] | Bought bitcoins: 0 Money left: 10126.50 lv. |   | [3124.15, 504.212, 2511.124] | Bought bitcoins: 30 Day of the first purchased bitcoin: 1 Money left: 5144.11 lv. |
