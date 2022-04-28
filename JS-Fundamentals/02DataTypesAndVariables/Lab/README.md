@@ -1,12 +1,6 @@
 # Lab: Data Types and Variables
 
-Problems for exercise and homework for the ["JS Fundamentals" Course @
-SoftUni.](https://softuni.bg/trainings/3449/programming-fundamentals-with-javascript-september-2021)
-
-Submit your solutions in the SoftUni judge system at:
-<https://judge.softuni.org/Contests/1242>
-
-1.  **Echo Type**
+## 1. Echo Type
 
 Write a JS function that takes **one parameter** and **prints** on two lines the
 **type** of the parameter and then one of the following:
@@ -23,16 +17,8 @@ Write a JS function that takes **one parameter** and **prints** on two lines the
 | **18**                   | **number** **18**                                     |
 | **null**                 | **object** **Parameter is not suitable for printing** |
 
-### Hints
 
--   Write a function that receives a single **parameter**.
-
--   Use the console.log function to print text on the console. Each call prints
-    a new line automatically.
-
--   The **typeof operator** is used to determine the data type of a given value.
-
-1.  **Concatenate Names**
+## 2. **Concatenate Names**
 
 Write a **function**, which receives two **names** as **string parameters** and
 a **delimiter**. Print the names **joined** by the delimiter.
@@ -45,14 +31,8 @@ a **delimiter**. Print the names **joined** by the delimiter.
 | 'Jan', 'White', '\<-\>' | Jan\<-\>White |
 | 'Linda', 'Terry', '=\>' | Linda=\>Terry |
 
-### Hints
 
-Use [string
-interpolation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals).
-
-![](media/d50e0ce71a97649b9c585b048b8a8c32.png)
-
-## Right Place
+## 3. Right Place
 
 You will receive **3 parameters (string, char, string).**  
 The first string will be a word with a **missing char** replaced with an
@@ -71,11 +51,8 @@ Matched**".
 | 'Str_ng', 'I', 'Strong' | Not Matched |
 | 'Str_ng', 'i', 'String' | Matched     |
 
-### Hints
 
-![](media/8741444ca5e67cfbf0e0b464efa4082b.png)
-
-## Integer and Float
+## 4. Integer and Float
 
 You will receive **3 numbers**. Your task is to find their **sum** and print
 result to the console in the following format:  
