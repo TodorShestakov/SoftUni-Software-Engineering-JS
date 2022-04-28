@@ -18,7 +18,7 @@ Write a JS function that takes **one parameter** and **prints** on two lines the
 | **null**                 | **object** **Parameter is not suitable for printing** |
 
 
-## 2. **Concatenate Names**
+## 2. Concatenate Names
 
 Write a **function**, which receives two **names** as **string parameters** and
 a **delimiter**. Print the names **joined** by the delimiter.
@@ -65,11 +65,8 @@ result to the console in the following format:
 | 9, 100, 1.1   | 110.1 - Float |
 | 100, 200, 303 | 603 - Integer |
 
-### Hints
 
-![](media/38a7262cedc7f32a5668cb8e8837797c.png)
-
-## Amazing Numbers
+## 5. Amazing Numbers
 
 Write a **function**, which as **input** will receive a **number**.
 
@@ -89,13 +86,8 @@ An amazing number includes the **digit 9** the sum of its digits.
 | 1233      | 1233 Amazing? True |
 | 999       | 999 Amazing? False |
 
-### Hints
 
-Use **includes()**
-
-![](media/479530f385629c17252cc44c8c1197e1.png)
-
-## Gramophone
+## 6. Gramophone
 
 Write a **function**, which as **input** will receive **3 parameters (strings)**
 
@@ -127,11 +119,9 @@ Rotations should be **rounded up**.
 | 'Black Sabbath', 'Paranoid', 'War Pigs' | The plate was rotated 167 times. |
 | 'Rammstein', 'Sehnsucht', 'Engel'       | The plate was rotated 81 times.  |
 
-### Hints
 
-![](media/47875d043c3ab8126b9ec6140a828ef8.png)
 
-## Required reading
+## 7. Required reading
 
 Write a **function** to help **Ivan** calculate how many hours a day he has to
 spend reading the necessary literature from the list given for the summer
@@ -157,7 +147,7 @@ read each day.
 | **Input**    | **Output** |                                                                                                                                                     |
 | 432, 15 , 4  | 7.2        | Total reading time of the book: **432 pages / 15 pages per hour = 28.8 hours** Required hours per day: **28.8 hours / 4 days = 7.2 hours** per day  |
 
-## Centuries to Minutes
+## 8. Centuries to Minutes
 
 Write a program that receives a **number** of **centuries** and converts it to
 **years**, **days**, **hours**, and **minutes**.
@@ -169,18 +159,8 @@ Write a program that receives a **number** of **centuries** and converts it to
 | 1         | 1 centuries = 100 years = 36524 days = 876576 hours = 52594560 minutes    |
 | 5         | 5 centuries = 500 years = 182621 days = 4382904 hours = 262974240 minutes |
 
-**Hint**
 
--   Assume that a year has 365.2422 days on average ([the Tropical
-    year](https://en.wikipedia.org/wiki/Tropical_year)).
-
-**Solution**
-
-You might help yourself with the code below:
-
-![](media/bd93cb1f70cda5dbd847bd9ee5ba5d13.png)
-
-1.  **Special Numbers**
+## 9. Special Numbers
 
 Write a program that receives a number **n.** For all numbers in the range
 **[1…n]** print the number and if it is special or not (**True** / **False**).
@@ -194,14 +174,8 @@ Write a program that receives a number **n.** For all numbers in the range
 | 15        | 1 -\> False 2 -\> False 3 -\> False 4 -\> False 5 -\> True 6 -\> False 7 -\> True 8 -\> False 9 -\> False 10 -\> False 11 -\> False 12 -\> False 13 -\> False 14 -\> True 15 -\> False                                                                 |
 | 20        | 1 -\> False 2 -\> False 3 -\> False 4 -\> False 5 -\> True 6 -\> False 7 -\> True 8 -\> False 9 -\> False 10 -\> False 11 -\> False 12 -\> False 13 -\> False 14 -\> True 15 -\> False 16 -\> True 17 -\> False 18 -\> False 19 -\> False 20 -\> False |
 
-**Hints**
 
-To calculate the sum of digits of given number **num**, you might repeat the
-following: sum the last digit (**num** **%** **10**) and remove it (**sum**
-**=** **sum** **/** **10**) until **num** reaches **0**. Use **parseInt()**
-while dividing to get only integer numbers.
-
-1.  **Triples of Latin Letters**
+## 10. Triples of Latin Letters
 
 Write a program that receives a string of **number** **n** and print all
 **triples** of the first **n small Latin letters**, ordered alphabetically:
@@ -212,13 +186,3 @@ Write a program that receives a string of **number** **n** and print all
 |-----------|-------------------------------------------------------------------------------------------------------------|
 | '3'       | aaa aab aac aba abb abc aca acb acc baa bab bac bba bbb bbc bca bcb bcc caa cab cac cba cbb cbc cca ccb ccc |
 | 2         | aaa aab aba abb baa bab bba bbb                                                                             |
-
-**Hints**
-
-Perform 3 nested loops from **0** to **n**. For each number **num** print its
-corresponding Latin letter as follows:
-
-![](media/66588767e9226aea8070be9432013195.png)
-
-The function **String.fromCharCode()** gets the value in **decimal** and
-transforms it to a character from the **ASCII table**.
