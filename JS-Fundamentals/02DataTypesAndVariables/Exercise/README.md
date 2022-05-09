@@ -1,12 +1,6 @@
 # Exercises: Data Types and Variables
 
-Problems for exercise and homework for the ["JS Fundamentals" Course @
-SoftUni.](https://softuni.bg/trainings/3449/programming-fundamentals-with-javascript-september-2021)
-
-Submit your solutions in the SoftUni judge system at:
-<https://judge.softuni.org/Contests/1229>
-
-## Sum Digits
+## 1. Sum Digits
 
 Write a **function**, which will be given a single **number**. Your task is to
 find the **sum** of its digits.
@@ -19,7 +13,7 @@ find the **sum** of its digits.
 | 97561     | 28         |
 | 543       | 12         |
 
-## Chars to String
+## 2. Chars to String
 
 Write a **function**, which receives **3 parameters**. Each parameter is a
 single character. Combine all the characters into **one** string and print it on
@@ -33,7 +27,7 @@ the console.
 | '%', '2', 'o' | %2o        |
 | '1', '5', 'p' | 15p        |
 
-## Town Info
+## 3. Town Info
 
 You will be given **3 parameters**. The first parameter will be the name of the
 **town** (string), the second – the **population** (number), and the third the
@@ -48,7 +42,7 @@ You will be given **3 parameters**. The first parameter will be the name of the
 | 'Sofia', 1286383, 492   | Town Sofia has population of 1286383 and area 492 square km.   |
 | 'Plovdiv', 1481353, 512 | Town Plovdiv has population of 1481353 and area 512 square km. |
 
-## Convert Meters to Kilometres
+## 4. Convert Meters to Kilometres
 
 You will be given a **number** that will be the distance in **meters**. Write a
 program that converts **meters** to **kilometers** formatted to the **second
@@ -61,7 +55,7 @@ decimal** point.
 | 1852      | 1.85       |
 | 798       | 0.80       |
 
-## Pounds to Dollars
+## 5. Pounds to Dollars
 
 Write a **function** that converts British **pounds** to **dollars** formatted
 to the **3rd decimal point**.
@@ -75,7 +69,7 @@ to the **3rd decimal point**.
 | 80        | 104.800    |
 | 39        | 51.090     |
 
-## Reversed Chars
+## 6. Reversed Chars
 
 Write a program that takes **3 parameters** (characters) and prints them in
 **reversed order** with a space between them.
@@ -87,7 +81,7 @@ Write a program that takes **3 parameters** (characters) and prints them in
 | 'A', 'B', 'C' | C B A      |
 | '1', 'L', '&' | & L 1      |
 
-## Lower or Upper
+## 7. Lower or Upper
 
 Write a **function** that prints whether a given character is **upper-case** or
 **lower-case**.
@@ -99,7 +93,7 @@ Write a **function** that prints whether a given character is **upper-case** or
 | 'L'       | upper-case |
 | 'f'       | lower-case |
 
-## \*Calculator
+## 8. \*Calculator
 
 Write a **function** that receives 3 parameters: a **number**, an **operator**
 (string), and **another number**.
@@ -114,7 +108,7 @@ calculation on the console formatted to the **second decimal** point.
 | 5, '+', 10   | 15.00      |
 | 25.5, '-', 3 | 22.50      |
 
-1.  **\*Gladiator Expenses**
+## 9. \*Gladiator Expenses
 
 As a gladiator, Peter has to repair his broken equipment when he loses a fight.
 His equipment consists of a helmet, sword, shield, and armor. You will receive
@@ -166,7 +160,7 @@ You will receive 5 parameters to your function:
 | 7, 2, 3, 4, 5             | Gladiator expenses: 16.00 aureus  | Trashed helmet -\> 3 times Trashed sword -\> 2 times Trashed shield -\> 1 time Total: 6 + 6 + 4 = 16.00 aureus; |
 | 23, 12.50, 21.50, 40, 200 | Gladiator expenses: 608.00 aureus |                                                                                                                 |
 
-# \*Spice Must Flow
+## 10. \*Spice Must Flow
 
 *Spice is Love, Spice is Life. And most importantly, Spice must flow. It must be
 extracted from the scorching sands of Arrakis, under the constant threat of
